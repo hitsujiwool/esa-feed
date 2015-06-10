@@ -11,7 +11,7 @@ $ go get github.com/hitsujiwool/esa-feed
 ## Example
 
 ```
-export ESA_TOKEN=your_access_token
-export ESA_TEAM=your_team
-cat post.md | esa-feed -c foo/bar -m "initial post" -w "hello"
+$ export ESA_TOKEN=your_access_token
+$ export ESA_TEAM=your_team
+$ cat post.md | esa-feed -c foo/bar -m "initial post" -w "hello"
 ```
